@@ -2,7 +2,7 @@
 using namespace std;
 /*
 * * * * * 
- * * * *    Inverted Half Pyramid
+ * * * *    Inverted full Pyramid
   * * *     Pattern
    * * 
     * 

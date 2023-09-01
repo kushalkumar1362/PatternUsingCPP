@@ -1,11 +1,14 @@
 #include <iostream>
 using namespace std;
 /*
-    * 
-   * *      Full Pyramid
-  * * *     Pattern
- * * * *
-* * * * *
+   *    
+  * *   
+ * * *  
+* * * * Full Pyramid
+* * * * 
+ * * *  
+  * *
+   *
  */
 int main()
 {

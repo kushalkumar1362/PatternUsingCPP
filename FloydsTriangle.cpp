@@ -10,7 +10,7 @@ using namespace std;
 int main()
 {
     int num;
-    static int count = 0;
+    int count = 0;
     cout << "Enter number of rows : ";
     cin >> num;
     for (int row = 0; row < num; row++)

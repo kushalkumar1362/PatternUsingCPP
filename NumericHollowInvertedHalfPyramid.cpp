@@ -2,8 +2,8 @@
 using namespace std;
 /*
 12345
-2345    Numeric Hollow Inverted Half Pyramid
-345     Pattern
+2  5
+3 5
 45
 5
  */
@@ -16,7 +16,13 @@ int main()
     {
         for (int col = 0; col < num - row; col++)
         {
-           cout  << row + col + 1;
+            if (row == 0 || col == 0 || col == num - row - 1)
+            {
+                cout << row + col + 1;
+            }
+            else{
+                    cout << " ";
+            }
         }
         cout << endl;
     }
